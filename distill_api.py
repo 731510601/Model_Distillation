@@ -272,7 +272,7 @@ async def main():
         data_source_type="excel",         # 数据源类型：'json'或'excel'
         output_folder="results",         # 输出文件夹路径
         api_url="https://www.gptapi.us",  # API地址
-        api_key="sk-ylpGEcbgxzrbsj5a7f2cCa44B93448B09bD7E1Bb8fAd368b",          # 替换为你的API密钥
+        api_key="your-api-key",          # 替换为你的API密钥
         model="claude-3-7-sonnet",           # 模型名称
         max_concurrency=10,              # 最大并发请求数
         max_retries=3                    # 失败重试次数
